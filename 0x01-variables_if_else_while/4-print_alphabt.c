@@ -2,14 +2,16 @@
 /**
  * main - A program that prints the alphabet in lowercase
  * Return: 0
- */
+ i*/
+
 int main(void)
 {
         char c;
-        c = 'a';
+	
+	c = 'a';
         while
                 (c <= 'z') {
-			if ((c) != 'a' && c != 'c' && c <= 'z')
+			if ((c) != 'x' && c != 'y' && c <= 'z')
 				putchar(c);
                         c++;
                 }
