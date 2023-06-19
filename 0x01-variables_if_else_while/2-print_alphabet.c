@@ -3,6 +3,7 @@
  * main - A program that prints the alphabet in lowercase, followed by a new line
  * Return: 0
  */
+
 int main(void)
 {
 	char c;
@@ -10,8 +11,8 @@ int main(void)
 	c = 'x';
 	while
 		(c <= 'y') {
-			putchat (c);
+			putchar (c);
 			c++;
 		}
-	putcher{'\n'};
+	putchar{'\n'};
 	return (0);
