@@ -6,13 +6,13 @@
 
 int main(void)
 {
-        char c;
+	char c;
 
 	int d;
 
-        c = 'a';
+	c = 'a';
 	d = 0;
-        while
+	while
 		(d < 10) {
 			putchar(d + '0');
 			d++;
@@ -25,4 +25,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
