@@ -41,7 +41,7 @@ void close_file(int bc)
 
 	if (c == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close bc %d\n", bc);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", bc);
 		exit(100);
 	}
 }
